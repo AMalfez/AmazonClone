@@ -1,0 +1,163 @@
+/* .cd{
+    min-height: 300px;
+} */
+
+.cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 350px;
+    
+}
+
+.card1, .card2, .card3{
+    width: 24%;
+    background-color: white;
+    height: 410px;
+    margin: 5px 7px 5px 7px;
+}
+
+.tt h5{
+    font-weight: bolder;
+    width: 80%;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 8px;
+}
+
+.imgg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.i1, .i2{
+    width: 40%;
+    margin: 10px;
+}
+
+.i1 img, .i2 img{
+    width: 100%;
+}
+
+.i1 p, .i2 p{
+    font-size: 13px;
+}
+.ig{
+    width: 80%;
+}
+.ig img{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 240px;
+    padding-top: 5px;
+}
+
+.card4{
+    width: 24%;
+    height: 410px;
+    margin: 5px 5px 5px 5px;
+}
+
+.c1{
+    height: 35%;
+    margin-bottom: 19px;
+    background-color: white;
+}
+
+.c1 h5{
+    font-weight: bolder;
+    width: 80%;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 8px;
+    padding-bottom: 5px;
+}
+
+.c1 p, a{
+    font-size: 12px;
+}
+
+.c2
+{
+    height: 60%;
+    background-color: white;
+}
+
+.c2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.content-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;   
+    margin-top: 170px;
+}
+
+.con{
+    margin: 5px 5px 5px 5px;
+    background-color: white;
+}
+
+.movie-card{
+    width: 49%;
+    height: 410px;
+    margin-right: 5px;
+}
+
+.nor-card1, .nor-card2{
+    width: 24%;
+    height: 410px;
+    margin-right: 5px;
+}
+
+.im1, .im2{
+    width: 48%;
+    padding: 5px 5px 5px 5px;
+}
+
+.im1 p, .im2 p{
+    font-size: 13px;
+    text-align: left;
+    padding-left: 20px;
+}
+.con1{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.nor-card1 h5{
+    font-size: 22px;
+}
+.nor-card1 img{
+    width: 90%;
+    margin: 5px 0px 13px 16px;
+    height: 280px;
+}
+
+.movie-card{
+    background-image: url('../stylsheet/Pushpa.webp'), linear-gradient(to top, rgb(22, 22, 22), rgba(0,0,0,0));
+    background-size: cover;
+    position: relative;
+}
+.grd{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0,0,0,0));
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    top: 0px;
+}
+
+.im1 img, .im2 img{
+    width: 100%;
+    height: auto;
+    margin: 5px;
+}

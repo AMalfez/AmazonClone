@@ -1,0 +1,40 @@
+.todays-deals{
+    width: 1248px;
+    border: 3px solid red;
+    overflow-x: scroll;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.slide1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.slide2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 8px;
+}
+
+.items{
+    border: 2px solid black;
+    width: 16%;
+    height: 250px;
+    margin: 5px;
+}
+
+.image-td{
+    width: 94%;
+    height: 70%;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.image-td img{
+    width: auto;
+    height: 100%;
+}
